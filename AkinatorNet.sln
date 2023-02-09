@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AkinatorNet.Lib", "AkinatorNet.Lib\AkinatorNet.Lib.csproj", "{9E92E2C6-22E1-4C01-AD3D-C8FADAD78D92}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AkinatorNet.Api", "AkinatorNet.Api\AkinatorNet.Api.csproj", "{1C617158-FD4C-42AE-AB59-FB8EEECEB248}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AkinatorNet", "AkinatorNet", "{C10F1915-4133-427E-9B8C-BA04445608D3}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkinatorNet.Web", "AkinatorNet.Web\AkinatorNet.Web.csproj", "{AA123A19-E7FA-40FB-A76E-916981D8F1A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E92E2C6-22E1-4C01-AD3D-C8FADAD78D92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E92E2C6-22E1-4C01-AD3D-C8FADAD78D92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E92E2C6-22E1-4C01-AD3D-C8FADAD78D92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E92E2C6-22E1-4C01-AD3D-C8FADAD78D92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C617158-FD4C-42AE-AB59-FB8EEECEB248}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C617158-FD4C-42AE-AB59-FB8EEECEB248}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C617158-FD4C-42AE-AB59-FB8EEECEB248}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C617158-FD4C-42AE-AB59-FB8EEECEB248}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA123A19-E7FA-40FB-A76E-916981D8F1A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA123A19-E7FA-40FB-A76E-916981D8F1A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA123A19-E7FA-40FB-A76E-916981D8F1A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA123A19-E7FA-40FB-A76E-916981D8F1A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1F321DC-6DB3-4E50-9322-12E14C415B01}
+	EndGlobalSection
+EndGlobal
